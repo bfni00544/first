@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>测试功能页</title>
+</head>
+
+<body>
+<form id="loginForm" action="user/login.do" method="post">
+  <div class="input-box">
+    <input id="username" name="username" tabindex="1" placeholder="手机号/邮箱" class="input-text" type="text" size="25" maxlength="32" autocomplete="off"/>
+    <p class="error-top">
+      <label id="loginName" class="error"></label>
+    </p>
+  </div>
+
+  <div class="input-box no-margin">
+    <input id="password" name="password" tabindex="2" placeholder="请输入密码" class="input-text" type="password" size="25" maxlength="20" autocomplete="off"/>
+    <p class="error-top">
+      <label for="password" id="loginPWD" class="error"></label>
+    </p>
+  </div>
+  <div id="passwordError" class="tip_div_login"></div>
+
+  <div class="login_grounp_style2">
+    <table width="100%" height="16" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="10"></td>
+        <td width="50%" align="left"><label>
+
+        </label></td>
+        <td width="50%" align="right">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+
+
+  <!--   <button class="login_area_right_btn bgcolor_blue " name="submit"  id="loginBtn"  accesskey="l" tabindex="4"  type="buttton" >登录 </button> -->
+
+
+  <div class="input-box margin-min">
+    <input type="hidden" name="encode" value="false"> <input
+          class="btn btn-blue btn-block" type="submit" name="submit"
+          id="loginBtn3" value="登录">
+  </div>
+</form>
+
+</body>
+</html>
